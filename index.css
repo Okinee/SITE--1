@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 300vh;
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    background-color: rgba(207, 155, 255, 0.527);
+}
+
+.Logo{
+    margin-left: 30px;
+    
+
+}
+.Logob{
+    text-decoration: none;
+    
+}
+
+.Social{
+    margin-right: 30px;
+}
+
+.Socialb{
+    height: 30px;
+    width: 30px;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(53, 18, 85, 0.555);
+    padding: 24px;
+}
+
+.container2n{
+    margin: 0px 20px;
+    text-decoration: none;
+}
+
+.container2b{
+padding: 10px 20px;
+}
+.conteudo1{
+    background-image: url(campanha2.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+
+}
+.conteudo1Texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textprinc{
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+}
+
+.subtextprinc{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+.conteudo1Texto2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0px;
+    
+}
