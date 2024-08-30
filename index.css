@@ -22,7 +22,8 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 24px;
-    background-color: rgb(207, 155, 255);
+    background-color: #fcb5e4;
+    border-bottom: solid 1px;
 }
 
 .Logo{
@@ -32,6 +33,7 @@ header{
 }
 .Logob{
     text-decoration: none;
+    background-image: url(/imagens\ do\ design/.Logo);
     
 }
 
@@ -48,8 +50,9 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(53, 18, 85);
+    background-color: #d183b7;
     padding: 20px;
+    border-bottom: solid 1px;
 }
 
 .container2n{
@@ -61,6 +64,7 @@ header{
 .container2 a{
     color: white;
     transition-duration:0.4s;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .container2 a:hover{
     color: white;
@@ -77,6 +81,7 @@ header{
 .container2 button:hover{
     padding: 12px 32px;
     background-color: rgb(202, 83, 123);
+    color: white;
 }
 .conteudo1{
     background-image: url(campanha2.jpg);
