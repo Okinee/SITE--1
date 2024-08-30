@@ -7,6 +7,14 @@
 
 body{
     height: 300vh;
+    padding-top: 180px;
+}
+
+header{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index:999;
 }
 
 .container1{
@@ -14,7 +22,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 24px;
-    background-color: rgba(207, 155, 255, 0.527);
+    background-color: rgb(207, 155, 255);
 }
 
 .Logo{
@@ -40,8 +48,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: rgba(53, 18, 85, 0.555);
-    padding: 24px;
+    background-color: rgb(53, 18, 85);
+    padding: 20px;
 }
 
 .container2n{
@@ -49,8 +57,26 @@ body{
     text-decoration: none;
 }
 
-.container2b{
-padding: 10px 20px;
+
+.container2 a{
+    color: white;
+    transition-duration:0.4s;
+}
+.container2 a:hover{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.11);
+    padding: 10px 10px 10px 13px;
+    
+}
+.container2 button{
+    padding: 4px 20px;
+    transition-duration:0.6s;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
+.container2 button:hover{
+    padding: 12px 32px;
+    background-color: rgb(202, 83, 123);
 }
 .conteudo1{
     background-image: url(campanha2.jpg);
@@ -58,6 +84,7 @@ padding: 10px 20px;
     background-size: contain;
     background-repeat: no-repeat;
     height: 500px;
+    margin-top: 20px;
 
 }
 .conteudo1Texto{
