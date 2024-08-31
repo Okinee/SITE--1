@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 190vh;
+    padding-top: 220px;
+}
+
+header{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index:999;
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    background-color: #fcb5e4;
+}
+
+.Logo{
+    margin-left: 0px;  
+}
+
+.Logob{
+    text-decoration: none;
+    width: 90px;
+    padding: 5px;
+    transition-duration: 0.5s;
+}
+
+.Logob:hover{
+    text-decoration: none;
+    width: 120px;
+}
+
+.Unidos{
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 30px;
+    padding: 4px 10px;
+    border: solid 2px;
+    transition-duration: 0.5s;
+}
+
+.Unidos:hover{
+    background-color: rgba(255, 255, 255, 0.192);
+    font-size: 40px;
+    padding: 4px 10px;
+    color: black;
+}
+
+.Social{
+    margin-right: 30px;
+    transition-duration: 0.5s;
+}
+
+.Socialb1{
+    height: 30px;
+    width: 30px;
+    margin: 0px 6px;
+    background-image: url(youtube4.png);
+    background-size: cover;
+    background-position: center;
+    border: none;
+    border-radius: 20%;
+    transition-duration: 0.5s;
+}
+
+.Socialb1:hover{
+    height: 40px;
+    width: 40px;
+    margin: 0px 6px;
+    background-image: url(youtube4.png);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.397);
+    border:none;
+}
+
+.Socialb2{
+    height: 30px;
+    width: 30px;
+    margin: 0px 6px;
+    background-image: url(facebook.png);
+    background-size: cover;
+    border: none;
+    border-radius: 20%;
+    transition-duration: 0.5s;
+}
+
+.Socialb2:hover{
+    height: 40px;
+    width: 40px;
+    margin: 0px 6px;
+    background-image: url(facebook.png);
+    background-size: cover;
+    border:none;
+}
+
+.Socialb3{
+    height: 30px;
+    width: 30px;
+    margin: 0px 2px;
+    background-image: url(instagram.png);
+    background-size: cover;
+    border: none;
+    border-radius: 21%;
+    transition-duration: 0.5s;
+}
+
+.Socialb3:hover{
+    height: 40px;
+    width: 40px;
+    margin: 0px 2px;
+    background-image: url(instagram.png);
+    background-size: cover;
+    border:none;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fcb5e4;
+    padding: 20px;
+    border-bottom: solid 1px;
+}
+
+.container2n{
+    margin: 0px 20px;
+    text-decoration: none;
+}
+
+
+.container2 a{
+    color: white;
+    transition-duration:0.4s;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container2 a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.466);
+    padding: 15px 12px 15px 15px;
+    
+}
+.container2 button{
+    padding: 4px 20px;
+    transition-duration:0.6s;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
+.container2 button:hover{
+    padding: 12px 32px;
+    background-color: rgb(211, 103, 139);
+    color: white;
+}
+
+.Doacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #c1e7f5;
+    margin-top: 30px;
+    border-top: solid black 3px;
+}
+.conteudo1{
+    display: flex;
+    background-image: url(MASCOTE\ -\ DOE.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 500px;
+}
+.conteudo1Button{
+    padding: 25px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #fcb5e4;
+    width: 180px; 
+    transition-duration: 0.5s;
+}
+.conteudo1Button:hover{
+    padding: 35px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(211, 103, 139);
+    width: 210px; 
+    color: white;
+}
+.conteudo1Text2{
+    text-align: center;
+    font-size: 30px;
+    padding: 40px 20px 60px 20px;
+}
+
+.conteudo1Texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textprinc{
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+}
+
+.subtextprinc{
+    font-size: 23px;
+    text-align: justify;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+.conteudo1Texto2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0px;
+    padding: 30px;
+    background-color: #eec5e09d;
+    
+}
+
+.section1{
+
+}
+.saiba{
+    margin-top: 15px;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    transition-duration: 0.5s;
+}
+
+.saiba:hover{
+    margin-top: 15px;
+    padding: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    background-color: rgb(211, 103, 139);
+    color: white;
+}
+
+
+
+footer{
+    background-color: #e9892b;
+}
+
+.footerr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.section11{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 20px 20px 0px 20px;
+}
+
+.section12{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 0px;
+}
+
+.FooterLogo{
+    background-image: url(MASCOTE\ -\ RODAPÉ.png);
+    height: 100px;
+    width: 100px;
+    transition-duration: 0.5s;
+}
+
+.FooterLogo:hover{
+    background-image: url(MASCOTE\ -\ RODAPÉ.png);
+    height: 115px;
+    width: 115px;
+}
+
+.section13{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 10px 10px;
+}
+
+.section13 a{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.politica{
+    transition-duration: 0.5s;
+}
+.politica:hover{
+    color: black;
+    font-size: 22px;
+    padding: 10px;
+}
+
+
+.Socialc1{
+    height: 40px;
+    width: 40px;
+    margin: 0px 10px;
+    background-image: url(youtube2.png);
+    background-size: cover;
+    border-radius: 50%;
+    border:none;
+    transition-duration: 0.5s;
+}
+
+.Socialc2{
+    height: 40px;
+    width: 40px;
+    margin: 0px 10px;
+    background-image: url(facebook.png);
+    background-size: cover;
+    border-radius: 50%;
+    border:none;
+    transition-duration: 0.5s;
+}
+
+.Socialc3{
+    height: 40px;
+    width: 40px;
+    margin: 0px 10px;
+    background-image: url(instagram.png);
+    background-size: cover;
+    border-radius: 50%;
+    border:none;
+    transition-duration: 0.5s;
+}
+
+.Socialc1:hover{
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px;
+    background-image: url(youtube2.png);
+    background-size: cover;
+    border-radius: 50%;
+    border:none;
+}
+
+.Socialc2:hover{
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px;
+    background-image: url(facebook.png);
+    background-size: cover;
+    border-radius: 50%;
+    border:none;
+
+}
+
+.Socialc3:hover{
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px;
+    background-image: url(instagram.png);
+    background-size: cover;
+    border-radius: 50%;
+    border:none;
+
+}
