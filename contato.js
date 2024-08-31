@@ -5,5 +5,5 @@ function ForaDoAr(){
 url === contato.html
 
 function AbrirContatos(){
-    window.open("contato.html")
+    window.open("contato.html", '_blank')
 }
