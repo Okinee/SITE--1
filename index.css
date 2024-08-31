@@ -23,7 +23,6 @@ header{
     justify-content: space-between;
     padding: 24px;
     background-color: #fcb5e4;
-    border-bottom: solid 1px;
 }
 
 .Logo{
@@ -64,16 +63,50 @@ header{
     margin-right: 30px;
 }
 
-.Socialb{
+
+.Socialb1{
     height: 30px;
     width: 30px;
+    margin: 0px 2px;
+    background-image: url(youtube.png);
+    background-size: cover;
+    border:none;
 }
+
+.Socialb1:hover{
+    height: 30px;
+    width: 30px;
+    margin: 0px 2px;
+    background-image: url(youtube.png);
+    background-size: cover;
+    border:none;
+}
+
+.Socialb2{
+    height: 30px;
+    width: 30px;
+    margin: 0px 2px;
+    background-image: url(facebook.png);
+    background-size: cover;
+    border:none;
+}
+
+.Socialb3{
+    height: 30px;
+    width: 30px;
+    margin: 0px 2px;
+    background-image: url(instagram.png);
+    background-size: cover;
+    border:none;
+}
+
+
 
 .container2{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #d183b7;
+    background-color: #fcb5e4;
     padding: 20px;
     border-bottom: solid 1px;
 }
