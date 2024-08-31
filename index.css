@@ -7,7 +7,7 @@
 
 body{
     height: 300vh;
-    padding-top: 180px;
+    padding-top: 220px;
 }
 
 header{
@@ -27,14 +27,37 @@ header{
 }
 
 .Logo{
-    margin-left: 30px;
-    
-
+    margin-left: 0px;  
 }
+
 .Logob{
     text-decoration: none;
-    background-image: url(/imagens\ do\ design/.Logo);
-    
+    width: 90px;
+    padding: 5px;
+    transition-duration: 0.5s;
+}
+
+.Logob:hover{
+    text-decoration: none;
+    width: 120px;
+    background-color: rgba(255, 255, 255, 0.39);
+}
+
+.Unidos{
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 30px;
+    padding: 4px 10px;
+    border: solid 2px;
+    transition-duration: 0.5s;
+}
+
+.Unidos:hover{
+    background-color: rgba(255, 255, 255, 0.192);
+    font-size: 40px;
+    padding: 4px 10px;
+    color: black;
 }
 
 .Social{
@@ -80,7 +103,7 @@ header{
 }
 .container2 button:hover{
     padding: 12px 32px;
-    background-color: rgb(202, 83, 123);
+    background-color: rgb(211, 103, 139);
     color: white;
 }
 .conteudo1{
@@ -111,5 +134,32 @@ header{
     flex-direction: column;
     align-items: center;
     margin: 30px 0px;
+    padding: 30px;
+    background-color: #eec5e09d;
     
+}
+
+.section1{
+
+}
+.saiba{
+    margin-top: 15px;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #e9892b;
+    width: 1000px;
 }
