@@ -67,7 +67,7 @@ header{
 .Socialb1{
     height: 30px;
     width: 30px;
-    margin: 0px 2px;
+    margin: 0px 6px;
     background-image: url(youtube.png);
     background-size: cover;
     border:none;
@@ -76,16 +76,17 @@ header{
 .Socialb1:hover{
     height: 30px;
     width: 30px;
-    margin: 0px 2px;
+    margin: 0px 6px;
     background-image: url(youtube.png);
     background-size: cover;
+    background-color: rgba(255, 255, 255, 0.397);
     border:none;
 }
 
 .Socialb2{
     height: 30px;
     width: 30px;
-    margin: 0px 2px;
+    margin: 0px 6px;
     background-image: url(facebook.png);
     background-size: cover;
     border:none;
@@ -186,13 +187,33 @@ header{
 
 
 
-
-
 footer{
+    background-color: #e9892b;
+}
+
+.footerr{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #e9892b;
-    width: 1000px;
+
+}
+
+.section11{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+.section12{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.FooterLogo{
+    background-image: url(MASCOTE\ -\ RODAPÉ.png);
+    height: 100px;
+    width: 100px;
 }
