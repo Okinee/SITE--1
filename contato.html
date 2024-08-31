@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTATO</title>
     <link rel="stylesheet" href="contato.css">
-    <script src="index.js"></script>
+    <script src="contato.js"></script>
 </head>
 <body>
     <header>
@@ -34,7 +34,7 @@
             </nav>
 
             <div>
-                <button class="container2b">  CONTATO  </button>
+                <button class="container2b" onclick="AbrirContatos()">  CONTATO  </button>
             </div>
         </div>
     </header>
@@ -53,10 +53,11 @@
             <div class="ContainerContato">
                 <div class="ModelContato">
                     <div>
-                        <label for=""></label>NOME COMPLETO</h1>
+                        <h1>NOME COMPLETO</h1>
                     </div>
-                    <div>
-
+                   
+                    <div >
+                        <input class="input" type="text" placeholder="DIGITE SEU NOME COMPLETO">
                     </div>
                 <div>
                 <div class="ModelContato">
@@ -64,7 +65,7 @@
                         <h1>E-MAIL</h1>
                     </div>
                     <div>
-
+                        <input class="input" type="email" placeholder="DIGITE SEU EMAIL">
                     </div>
                 <div>
                 
@@ -73,7 +74,7 @@
                         <h1>WHATSAPP</h1>
                     </div>
                     <div>
-
+                        <input class="input" type="tel" placeholder="DIGITE SEU NUMERO DE TELEFONE">
                     </div>
                 <div>
 
@@ -82,15 +83,33 @@
                         <h1>ESCREVA UMA MENSAGEM</h1>
                     </div>
                     <div>
-    
+                        <input class="input" type="text" placeholder="DIGITE SUA MENSAGEM">
                     </div>
                 <div>
                 
             </div>
         </section>
 
-        <section>
+        <section class="section2">
+            <div class="ModelSection2">
+                 <div>
+                    <h1>Pix</h1>
+                 </div>
+                 
+                 <div>
+                    <button class="Sociald1" onclick="ForaDoAr()"></button>
+                 </div>
+            </div>
 
+            <div class="ModelSection22">
+                <div>
+                    <button class="Sociald2" onclick="ForaDoAr()"></button>
+                </div>
+                
+                <div>
+                   <h1>WHATSAPP</h1>
+                </div>
+           </div>
         </section>
     </main>
 
