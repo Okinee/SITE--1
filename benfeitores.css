@@ -6,7 +6,7 @@
 }
 
 body{
-    height: 200vh;
+    height: 170vh;
     padding-top: 220px;
 }
 
@@ -162,27 +162,51 @@ header{
     background-color: rgb(211, 103, 139);
     color: white;
 }
+
+.Doacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #c1e7f5;
+    margin-top: 30px;
+    border-top: solid black 3px;
+}
 .conteudo1{
-    background-image: url(campanha2.jpg);
+    display: flex;
+    background-image: url(MASCOTE\ -\ DOE.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     height: 500px;
-    margin-top: 20px;
-
+    width: 500px;
 }
-.conteudo1Texto{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.conteudo1Button{
+    padding: 25px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #fcb5e4;
+    width: 180px; 
+    transition-duration: 0.5s;
 }
-.textprinc{
-    font-size: 60px;
-    color: rgb(0, 0, 0);
+.conteudo1Button:hover{
+    padding: 35px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(211, 103, 139);
+    width: 210px; 
+    color: white;
+}
+.conteudo1Text2{
+    text-align: center;
+    font-size: 30px;
+    padding: 40px 20px 60px 20px;
 }
 
 .subtextprinc{
-    font-size: 50px;
+    font-size: 23px;
+    text-align: justify;
+    padding: 20px;
     color: rgb(0, 0, 0);
 }
 .conteudo1Texto2{
@@ -191,13 +215,10 @@ header{
     align-items: center;
     margin: 30px 0px;
     padding: 30px;
-    background-color: #eec5e0bd;
+    background-color: #eec5e09d;
     
 }
 
-.section1{
-
-}
 .saiba{
     margin-top: 15px;
     padding: 20px;
@@ -342,4 +363,72 @@ footer{
     border-radius: 50%;
     border:none;
 
+}
+.section1{
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.textprinc{
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+}
+
+.section2{
+    background-color: #c1e7f5;
+    text-align: justify;
+    padding: 40px;
+}
+
+.section2text2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.section3{
+    padding: 10px;
+}
+
+.ContainerMundo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding: 40px;
+}
+.section3text1{
+    font-size: 40px;
+}
+.section3text2{
+    font-size: 20px;
+}
+
+.benfeitoresDiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 20px;
+    
+}
+
+.Benfeitor1{
+    height: 150px;
+    width: 200px;
+}
+
+.Benfeitor2{
+    height: 150px;
+    width: 200px;
+}
+
+.Benfeitor3{
+    height: 150px;
+    width: 200px;
+}
+
+.Benfeitor4{
+    height: 150px;
+    width: 200px;
 }
