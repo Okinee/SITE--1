@@ -6,7 +6,7 @@
 }
 
 body{
-    height: 300vh;
+    height: 210vh;
     padding-top: 220px;
 }
 
@@ -39,7 +39,6 @@ header{
 .Logob:hover{
     text-decoration: none;
     width: 120px;
-    background-color: rgba(255, 255, 255, 0.39);
 }
 
 .Unidos{
@@ -61,8 +60,8 @@ header{
 
 .Social{
     margin-right: 30px;
+    transition-duration: 0.5s;
 }
-
 
 .Socialb1{
     height: 30px;
@@ -71,11 +70,12 @@ header{
     background-image: url(youtube.png);
     background-size: cover;
     border:none;
+    transition-duration: 0.5s;
 }
 
 .Socialb1:hover{
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     margin: 0px 6px;
     background-image: url(youtube.png);
     background-size: cover;
@@ -90,6 +90,16 @@ header{
     background-image: url(facebook.png);
     background-size: cover;
     border:none;
+    transition-duration: 0.5s;
+}
+
+.Socialb2:hover{
+    height: 40px;
+    width: 40px;
+    margin: 0px 6px;
+    background-image: url(facebook.png);
+    background-size: cover;
+    border:none;
 }
 
 .Socialb3{
@@ -99,9 +109,17 @@ header{
     background-image: url(instagram.png);
     background-size: cover;
     border:none;
+    transition-duration: 0.5s;
 }
 
-
+.Socialb3:hover{
+    height: 40px;
+    width: 40px;
+    margin: 0px 2px;
+    background-image: url(instagram.png);
+    background-size: cover;
+    border:none;
+}
 
 .container2{
     display: flex;
@@ -124,9 +142,9 @@ header{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .container2 a:hover{
-    color: white;
-    background-color: rgba(255, 255, 255, 0.11);
-    padding: 10px 10px 10px 13px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.466);
+    padding: 15px 12px 15px 15px;
     
 }
 .container2 button{
@@ -181,9 +199,17 @@ header{
     padding: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
+    transition-duration: 0.5s;
 }
 
-
+.saiba:hover{
+    margin-top: 15px;
+    padding: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    background-color: rgb(211, 103, 139);
+    color: white;
+}
 
 
 
@@ -203,17 +229,113 @@ footer{
     display: flex;
     justify-content:flex-start;
     align-items: center;
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
 }
 
 .section12{
     display: flex;
     justify-content:center;
     align-items: center;
+    padding: 20px;
 }
 
 .FooterLogo{
     background-image: url(MASCOTE\ -\ RODAPÉ.png);
     height: 100px;
     width: 100px;
+    transition-duration: 0.5s;
+}
+
+.FooterLogo:hover{
+    background-image: url(MASCOTE\ -\ RODAPÉ.png);
+    height: 116px;
+    width: 116px;
+}
+
+.section13{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+}
+
+.section13 a{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.politica{
+    transition-duration: 0.5s;
+}
+.politica:hover{
+    color: black;
+    font-size: 22px;
+    padding: 10px;
+}
+
+
+.Socialc1{
+    height: 40px;
+    width: 40px;
+    margin: 0px 10px;
+    background-image: url(youtube2.png);
+    background-size: cover;
+    border-radius: 50%;
+    border:none;
+    transition-duration: 0.5s;
+}
+
+.Socialc2{
+    height: 40px;
+    width: 40px;
+    margin: 0px 10px;
+    background-image: url(facebook.png);
+    background-size: cover;
+    border-radius: 50%;
+    border:none;
+    transition-duration: 0.5s;
+}
+
+.Socialc3{
+    height: 40px;
+    width: 40px;
+    margin: 0px 10px;
+    background-image: url(instagram.png);
+    background-size: cover;
+    border-radius: 50%;
+    border:none;
+    transition-duration: 0.5s;
+}
+
+.Socialc1:hover{
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px;
+    background-image: url(youtube2.png);
+    background-size: cover;
+    border-radius: 50%;
+    border:none;
+}
+
+.Socialc2:hover{
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px;
+    background-image: url(facebook.png);
+    background-size: cover;
+    border-radius: 50%;
+    border:none;
+
+}
+
+.Socialc3:hover{
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px;
+    background-image: url(instagram.png);
+    background-size: cover;
+    border-radius: 50%;
+    border:none;
+
 }
