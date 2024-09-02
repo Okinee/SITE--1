@@ -11,8 +11,3 @@ function AbrirContatos(){
 function SobreMais(){
     window.open("Sobre.html", '_self')
 }
-
-window.addEventListener("scroll", function(){
-    let header = document.querySelector('.container1')
-    header.classList.toggle('rolagem' , window.scrollY>100)
-})
